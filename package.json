@@ -1,0 +1,25 @@
+{
+  "name": "sap-fioneer-qa-automation-challenge",
+  "version": "1.0.0",
+  "description": "Automated Playwright tests for the SAP Fioneer QA Automation Challenge.",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "Artem Reshchenko",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^24.0.4",
+    "eslint": "^9.29.0",
+    "prettier": "^3.6.0",
+    "@typescript-eslint/eslint-plugin": "^8.35.0",
+    "@typescript-eslint/parser": "^8.35.0"
+  },
+  "type": "module"
+}
